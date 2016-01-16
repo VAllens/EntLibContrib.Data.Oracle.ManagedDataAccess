@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{BE0729F5-7F8E-424C-BAED-10A5C9D9539A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{B3CECB44-C5E6-48FF-A858-A05EBBE3B3AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.TestSupport", "Data\Tests\Data.TestSupport\Data.TestSupport.csproj", "{B78888AF-E38C-48F7-BE7D-0A79609BBDD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{55613953-4CC2-4CAA-95A2-0407D5A41A40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{5CE9DBF7-9FCA-4EAA-A255-CFCAF3CA9401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.TestSupport", "Common\Tests\Common.TestSupport\Common.TestSupport.csproj", "{8F2DF281-5843-41D5-963B-55EDFC290FAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Oracle.ManagedDataAccess", "Data\Src\Data.Oracle.ManagedDataAccess\Data.Oracle.ManagedDataAccess.csproj", "{9ECC559B-9628-4CA9-8226-1A59833BBA56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Oracle.ManagedDataAccess.Tests", "Data\Tests\Data.Oracle.ManagedDataAccess.Tests\Data.Oracle.ManagedDataAccess.Tests.csproj", "{EC56BAF4-5964-4DD4-B9B7-2E08EBF518C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B78888AF-E38C-48F7-BE7D-0A79609BBDD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B78888AF-E38C-48F7-BE7D-0A79609BBDD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B78888AF-E38C-48F7-BE7D-0A79609BBDD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B78888AF-E38C-48F7-BE7D-0A79609BBDD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F2DF281-5843-41D5-963B-55EDFC290FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F2DF281-5843-41D5-963B-55EDFC290FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F2DF281-5843-41D5-963B-55EDFC290FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F2DF281-5843-41D5-963B-55EDFC290FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ECC559B-9628-4CA9-8226-1A59833BBA56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ECC559B-9628-4CA9-8226-1A59833BBA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ECC559B-9628-4CA9-8226-1A59833BBA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ECC559B-9628-4CA9-8226-1A59833BBA56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC56BAF4-5964-4DD4-B9B7-2E08EBF518C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC56BAF4-5964-4DD4-B9B7-2E08EBF518C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC56BAF4-5964-4DD4-B9B7-2E08EBF518C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC56BAF4-5964-4DD4-B9B7-2E08EBF518C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3CECB44-C5E6-48FF-A858-A05EBBE3B3AC} = {BE0729F5-7F8E-424C-BAED-10A5C9D9539A}
+		{B78888AF-E38C-48F7-BE7D-0A79609BBDD8} = {B3CECB44-C5E6-48FF-A858-A05EBBE3B3AC}
+		{5CE9DBF7-9FCA-4EAA-A255-CFCAF3CA9401} = {55613953-4CC2-4CAA-95A2-0407D5A41A40}
+		{8F2DF281-5843-41D5-963B-55EDFC290FAF} = {5CE9DBF7-9FCA-4EAA-A255-CFCAF3CA9401}
+		{9ECC559B-9628-4CA9-8226-1A59833BBA56} = {BE0729F5-7F8E-424C-BAED-10A5C9D9539A}
+		{EC56BAF4-5964-4DD4-B9B7-2E08EBF518C0} = {B3CECB44-C5E6-48FF-A858-A05EBBE3B3AC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
