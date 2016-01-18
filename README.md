@@ -1,4 +1,4 @@
-# EntLibContrib.Data.Oracle.ManagedDataAccess
+# patterns & practices: Enterprise Library Contrib
 ## Overview
 Enterprise Library Contribution Data ODP.NET Managed Provider, Support for Oracle 12c.
 Modified from [https://entlibcontrib.codeplex.com](https://entlibcontrib.codeplex.com).
